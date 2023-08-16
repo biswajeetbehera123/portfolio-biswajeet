@@ -16,7 +16,7 @@ const Projects = () => {
       id: 1,
       title: "Code Nexus-An Online IDE",
       imageSrc: codenexus,
-      url: "code-nexus",
+      url: "code",
     },
     {
       id: 2,
