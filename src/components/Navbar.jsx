@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 import {
   FaBars,
   FaTimes,
-  FaFacebook,
+  FaWhatsapp,
   FaGithub,
   FaTwitter,
   FaLinkedin,
@@ -130,18 +130,26 @@ const Navbar = () => {
 
             <div>
               <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
-                  <FaLinkedin size={25} />
-                </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
-                  <FaTwitter size={25} />
-                </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
-                  <FaFacebook size={25} />
-                </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
-                  <FaGithub size={25} />
-                </div>
+                <Link href='https://www.linkedin.com/in/biswajeet-behera-ab914a229/' target="_blank">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
+                    <FaLinkedin size={25} />
+                  </div>
+                </Link>
+                <Link href="https://twitter.com/Biswaje7655042" target="_blank">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
+                    <FaTwitter size={25} />
+                  </div>
+                </Link>
+                <Link href="https://wa.me/7655042927" target="_blank">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
+                    <FaWhatsapp size={25} />
+                  </div>
+                </Link>
+                <Link href="https://github.com/biswajeetbehera123" target="_blank">
+                  <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
+                    <FaGithub size={25} />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
