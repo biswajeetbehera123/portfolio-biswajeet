@@ -45,9 +45,7 @@ const Projects = () => {
           projects
         </h2>
         <p className="py-4 max-w-lg">
-          While only that hauntedtell many purple no lent cushions more heart.
-          Soul cushions the still if i, hath lamplight mortals the rapping have
-          me and.
+          Showcasing a selection of innovative and impactful undertakings, highlighting technical prowess, creativity, and problem-solving abilities in diverse contexts.
         </p>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">

@@ -18,11 +18,8 @@ const HomePage = () => {
         <h5 className="uppercase font-bold text-slate-200 text-5xl">
           full stack developer
         </h5>
-
-        <p className="text-slate-200 text-xl max-w-sm mx-auto mt-2">
-          I have 8 years of experience building and desgining software.
-          Currently, I love to work on web application using technologies like
-          React, Tailwind, Next JS and GraphQL.
+        <p className="text-slate-200 text-md max-w-sm mx-auto mt-2">
+          Experienced developer with a passion for crafting efficient and innovative solutions. Proficient in multiple programming languages and frameworks, adept at problem-solving and collaborative teamwork.
         </p>
 
         <Link href="/#me">

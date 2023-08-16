@@ -10,28 +10,16 @@ const Me = () => {
         <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
           about me
         </h2>
-
-        <div className="shadow-xl shadow-blue-300 my-8 px-8">
+        
+        <div className="shadow-xl shadow-blue-300 my-8 px-8 rounded-xl">
           <p className="py-4 max-w-2xl mx-auto">
-            Nepenthe above my pallas of rapping guessing shore. Then chamber
-            midnight nevermore nevermore. Dared pallas nothing door me oer
-            myself so, name streaming door back beguiling was unseen at,
-            evilprophet is than burden little the and me at, there above heaven
-            in more no, nevermore sinking fowl the door oer.
+            Welcome to my portfolio! I'm an experienced developer driven by a relentless curiosity for technology. With a strong foundation in various programming languages and frameworks, I thrive on solving complex challenges and crafting elegant solutions. My journey is marked by a commitment to continuous learning, which fuels my passion for staying at the forefront of technological advancements.
           </p>
           <p className="py-4 max-w-2xl mx-auto">
-            Nepenthe above my pallas of rapping guessing shore. Then chamber
-            midnight nevermore nevermore. Dared pallas nothing door me oer
-            myself so, name streaming door back beguiling was unseen at,
-            evilprophet is than burden little the and me at, there above heaven
-            in more no, nevermore sinking fowl the door oer.
+            Collaboration is at the heart of my approach. I value teamwork and believe that diverse perspectives lead to superior outcomes. Whether it's contributing to a team project or leading an initiative, I bring a collaborative spirit that fosters innovation and growth.
           </p>
           <p className="py-4 max-w-2xl mx-auto">
-            Nepenthe above my pallas of rapping guessing shore. Then chamber
-            midnight nevermore nevermore. Dared pallas nothing door me oer
-            myself so, name streaming door back beguiling was unseen at,
-            evilprophet is than burden little the and me at, there above heaven
-            in more no, nevermore sinking fowl the door oer.
+            Throughout my career, I've embarked on projects that have not only showcased my technical expertise but also demonstrated my ability to think creatively and adapt to evolving landscapes. Each project is a testament to my dedication to producing robust, efficient, and user-centric solutions.
           </p>
         </div>
 

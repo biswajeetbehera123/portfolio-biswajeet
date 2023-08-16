@@ -86,9 +86,7 @@ const Skills = () => {
                     skills
                 </h2>
                 <p className="py-4 max-w-lg">
-                    While only that hauntedtell many purple no lent cushions more heart.
-                    Soul cushions the still if i, hath lamplight mortals the rapping have
-                    me and.
+                    Expertise in diverse programming languages, frameworks, and problem-solving. Collaborative, innovative, and dedicated to advancing technology through continuous learning
                 </p>
 
                 <div className="grid lg:grid-cols-4 gap-8">
