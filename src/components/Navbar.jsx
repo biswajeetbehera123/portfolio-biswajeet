@@ -16,15 +16,13 @@ const Navbar = () => {
   const [navigation, setNavigation] = useState(false);
   const [pageScroll, setPageScroll] = useState(false);
 
-  if (typeof window != 'undefined') {
-    useEffect(() => {
-      const sub = window.addEventListener("scroll", () =>
-        setPageScroll(window.scrollY >= 90)
-      );
+  useEffect(() => {
+    const sub = window.addEventListener("scroll", () =>
+      setPageScroll(window.scrollY >= 90)
+    );
 
-      return sub;
-    }, []);
-  }
+    return sub;
+  }, []);
 
   const links = [
     {
