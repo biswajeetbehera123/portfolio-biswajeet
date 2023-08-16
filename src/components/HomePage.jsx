@@ -22,7 +22,7 @@ const HomePage = () => {
           Experienced developer with a passion for crafting efficient and innovative solutions. Proficient in multiple programming languages and frameworks, adept at problem-solving and collaborative teamwork.
         </p>
 
-        <Link href="/#me">
+        <Link href="/#about">
           <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
             know more
             <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
