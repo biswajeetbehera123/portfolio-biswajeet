@@ -1,6 +1,8 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Head from 'next/head'
+import Analytics from '@vercel/analytics'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,10 +14,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <Analytics />
+      </Head>
       <body className={inter.className}>
         <Navbar />
         {children}
       </body>
     </html>
+
   )
 }
