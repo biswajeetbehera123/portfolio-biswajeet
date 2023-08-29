@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { IoChevronBackOutline } from "react-icons/io5";
+
 import image from "../../../public/assets/projects/web/1.png"
 import codenexus from "../../../public/assets/projects/web/2.png"
 import netflix from "../../../public/assets/projects/web/3.png"
@@ -113,6 +115,16 @@ const page = () => {
                             </div>
                         </Link>
                     ))}
+                </div>
+                <div className="flex items-center justify-center">
+                    <Link href="/#projects">
+                        <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
+                            <span className="-rotate-225 duration-200 ease-in group-hover:-translate-x-5">
+                                <IoChevronBackOutline size={25} />
+                            </span>
+                            back
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

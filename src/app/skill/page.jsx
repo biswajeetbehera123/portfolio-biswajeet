@@ -1,20 +1,21 @@
 import React from "react";
 
 import Link from "next/link";
-import { MdExpandMore } from "react-icons/md";
 
-import css from "../../public/assets/skills/css.png"
-import firebase from "../../public/assets/skills/firebase.png"
-import github from "../../public/assets/skills/github1.png"
-import html from "../../public/assets/skills/html.png"
-import javascript from "../../public/assets/skills/javascript.png"
-import mongo from "../../public/assets/skills/mongo.png"
-import nextjs from "../../public/assets/skills/nextjs.png"
-import node from "../../public/assets/skills/node.png"
-import react from "../../public/assets/skills/react.png"
-import tailwind from "../../public/assets/skills/tailwind.png"
-import sql from "../../public/assets/skills/sql.png"
-import python from "../../public/assets/skills/python.png"
+import { IoChevronBackOutline } from "react-icons/io5";
+
+import css from "../../../public/assets/skills/css.png"
+import firebase from "../../../public/assets/skills/firebase.png"
+import github from "../../../public/assets/skills/github1.png"
+import html from "../../../public/assets/skills/html.png"
+import javascript from "../../../public/assets/skills/javascript.png"
+import mongo from "../../../public/assets/skills/mongo.png"
+import nextjs from "../../../public/assets/skills/nextjs.png"
+import node from "../../../public/assets/skills/node.png"
+import react from "../../../public/assets/skills/react.png"
+import tailwind from "../../../public/assets/skills/tailwind.png"
+import sql from "../../../public/assets/skills/sql.png"
+import python from "../../../public/assets/skills/python.png"
 
 import Image from "next/image";
 
@@ -47,13 +48,43 @@ const Skills = () => {
         },
         {
             id: 6,
+            title: "Tailwind",
+            src: tailwind,
+        },
+        {
+            id: 7,
+            title: "GitHub",
+            src: github,
+        },
+        {
+            id: 8,
             title: "Node JS",
             src: node,
-        }
+        },
+        {
+            id: 9,
+            title: "Firebase",
+            src: firebase,
+        },
+        {
+            id: 10,
+            title: "MongoDB",
+            src: mongo,
+        },
+        {
+            id: 11,
+            title: "Python",
+            src: python,
+        },
+        {
+            id: 12,
+            title: "SQL",
+            src: sql,
+        },
     ];
 
     return (
-        <div id="skills" className="w-full">
+        <div id="skills" className="w-full pt-6">
             <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
                 <h2 className="text-5xl md:text-5xl tracking-wider uppercase text-blue-500 font-bold">
                     skills
@@ -75,12 +106,12 @@ const Skills = () => {
                     ))}
                 </div>
                 <div className="flex items-center justify-center">
-                    <Link href="/skill">
+                    <Link href="/#skills">
                         <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
-                            all skills
-                            <span className="-rotate-90 duration-200 ease-in group-hover:translate-x-5">
-                                <MdExpandMore size={25} />
+                            <span className="-rotate-225 duration-200 ease-in group-hover:-translate-x-5">
+                                <IoChevronBackOutline size={25} />
                             </span>
+                            back
                         </div>
                     </Link>
                 </div>
