@@ -17,7 +17,7 @@ This is my personal portfolio website built using Next.js and Tailwind CSS. It s
 
 ![Portfolio Screenshot](https://github.com/biswajeetbehera123/portfolio-biswajeet/assets/107670354/3fd59507-4538-486e-afb7-6878bb0700e4)
 
-You can visit the live website [here](https://biswajeetbehera.vercel.live/).
+You can visit the live website [here](https://biswajeetbehera.vercel.app/).
 
 ## Technologies Used
 
