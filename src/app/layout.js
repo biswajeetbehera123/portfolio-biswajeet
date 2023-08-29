@@ -1,8 +1,9 @@
+'use client'
+
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Head from 'next/head'
-import Analytics from '@vercel/analytics'
+// import Providers from './providers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,12 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <Analytics />
-      </Head>
       <body className={inter.className}>
-        <Navbar />
-        {children}
+          <Navbar />
+          {children}
       </body>
     </html>
 

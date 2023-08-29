@@ -10,12 +10,16 @@ import {
   FaGithub,
   FaTwitter,
   FaLinkedin,
+  FaSun,
+  FaMoon
 } from "react-icons/fa";
+import Theme from "./Theme";
 
 const Navbar = () => {
   const [navigation, setNavigation] = useState(false);
   const [pageScroll, setPageScroll] = useState(false);
-
+  const [active, setActive] = useState(false);
+  
   useEffect(() => {
     const sub = window.addEventListener("scroll", () =>
       setPageScroll(window.scrollY >= 90)
@@ -23,6 +27,8 @@ const Navbar = () => {
 
     return sub;
   }, []);
+
+
 
   const links = [
     {
@@ -53,11 +59,14 @@ const Navbar = () => {
         }`}
     >
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">
-        <Link href="/#home">
-          <h1 className="text-3xl lg:text-4xl font-bold uppercase tracking-wider cursor-pointer">
-            biswajeet
-          </h1>
-        </Link>
+        <div className="flex items-center gap-6">
+          <Link href="/#home">
+            <h1 className="text-3xl lg:text-4xl font-bold uppercase tracking-wider cursor-pointer">
+              biswajeet
+            </h1>
+          </Link>
+          {/* <Theme /> */}
+        </div>
 
         <div>
           <ul className="hidden md:flex">
