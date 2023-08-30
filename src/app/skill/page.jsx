@@ -19,6 +19,10 @@ import python from "../../../public/assets/skills/python.png"
 
 import Image from "next/image";
 
+export const metadata = {
+    title: 'Skills'
+}
+
 const Skills = () => {
     const experiences = [
         {

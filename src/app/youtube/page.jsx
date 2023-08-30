@@ -4,6 +4,10 @@ import netflixImg from '../../../public/assets/projects/web/4.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
+export const metadata = {
+    title: 'YouTube Lite'
+}
+
 const page = () => {
     return (
         <div>

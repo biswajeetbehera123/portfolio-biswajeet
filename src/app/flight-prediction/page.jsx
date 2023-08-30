@@ -4,6 +4,10 @@ import netflixImg from '../../../public/assets/projects/ml/3.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
+export const metadata = {
+    title: 'Flight Price Prediction'
+}
+
 const page = () => {
     return (
         <div>

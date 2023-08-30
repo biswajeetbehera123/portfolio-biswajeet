@@ -4,6 +4,10 @@ import netflixImg from '../../../public/assets/projects/opencv/1.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
+export const metadata = {
+    title: 'Object Detection'
+}
+
 const page = () => {
     return (
         <div>

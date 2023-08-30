@@ -19,6 +19,10 @@ import flight from "../../../public/assets/projects/ml/3.png"
 import Link from 'next/link'
 import Image from 'next/image'
 
+export const metadata = {
+    title: 'Projects'
+}
+
 const page = () => {
     const portfolios = [
         {
