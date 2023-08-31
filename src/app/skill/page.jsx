@@ -90,7 +90,7 @@ const Skills = () => {
     return (
         <div id="skills" className="w-full pt-6">
             <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-                <h2 className="text-5xl md:text-5xl tracking-wider uppercase text-blue-500 font-bold">
+                <h2 className="text-3xl md:text-5xl tracking-wider uppercase text-blue-500 font-bold">
                     skills
                 </h2>
                 <p className="py-4 max-w-lg">

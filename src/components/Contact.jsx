@@ -11,9 +11,9 @@ import ContactImg from '../../public/assets/contact.jpg';
 
 const Contact = () => {
   return (
-    <div id='contact' className='w-full lg:h-screen'>
+    <div id='contact' className='w-full lg:h-screen pt-4'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
+        <h2 className="text-3xl md:text-5xl tracking-wider uppercase text-blue-500 font-bold">
           contact
         </h2>
         <div className='grid lg:grid-cols-5 gap-8'>
