@@ -5,13 +5,19 @@ import { MdExpandMore } from "react-icons/md";
 import codenexus from "../../public/assets/projects/web/2.png"
 import netflix from "../../public/assets/projects/web/3.png"
 import mask from "../../public/assets/projects/opencv/1.png"
-import student from "../../public/assets/projects/ml/2.png"
+import roots from "../../public/assets/projects/web/7.png"
 
 import Link from "next/link";
 import Image from "next/image";
 
 const Projects = () => {
   const portfolios = [
+    {
+      id: 3,
+      title: "Roots 2023 Official Website",
+      imageSrc: roots ,
+      url: "roots",
+    },
     {
       id: 1,
       title: "Code Nexus-An Online IDE",
@@ -25,16 +31,10 @@ const Projects = () => {
       url: "netflix",
     },
     {
-      id: 3,
+      id: 4,
       title: "Mask Detection Model",
       imageSrc: mask,
       url: "mask",
-    },
-    {
-      id: 4,
-      title: "Student Mark Prediction Model",
-      imageSrc: student,
-      url: "mark-prediction",
     },
   ];
 

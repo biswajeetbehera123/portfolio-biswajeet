@@ -8,6 +8,7 @@ import netflix from "../../../public/assets/projects/web/3.png"
 import youtube from "../../../public/assets/projects/web/4.png"
 import weather from "../../../public/assets/projects/web/5.png"
 import blood from "../../../public/assets/projects/web/6.png"
+import roots from "../../../public/assets/projects/web/7.png"
 
 import mask from "../../../public/assets/projects/opencv/1.png"
 import object from "../../../public/assets/projects/opencv/2.png"
@@ -27,27 +28,33 @@ const page = () => {
     const portfolios = [
         {
             id: 1,
-            title: "Image To Text",
-            imageSrc: image,
-            url: "image",
+            title: "Roots 2023 Official Website",
+            imageSrc: roots,
+            url: "roots",
         },
         {
-            id: 2,
+            id: 1,
             title: "Code Nexus-An Online IDE",
             imageSrc: codenexus,
             url: "code",
         },
         {
-            id: 3,
+            id: 2,
             title: "Netflix Lite",
             imageSrc: netflix,
             url: "netflix",
         },
         {
-            id: 4,
+            id: 3,
             title: "Youtube Lite",
             imageSrc: youtube,
             url: "youtube",
+        },
+        {
+            id: 4,
+            title: "Image To Text",
+            imageSrc: image,
+            url: "image",
         },
         {
             id: 5,
