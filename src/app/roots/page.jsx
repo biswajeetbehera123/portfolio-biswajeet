@@ -5,7 +5,7 @@ import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Weather App'
+    title: 'Roots 2023'
 }
 
 const page = () => {
