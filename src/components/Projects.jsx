@@ -2,10 +2,10 @@ import React from "react";
 
 import { MdExpandMore } from "react-icons/md";
 
-import codenexus from "../../public/assets/projects/web/2.png"
-import netflix from "../../public/assets/projects/web/3.png"
 import mask from "../../public/assets/projects/opencv/1.png"
 import roots from "../../public/assets/projects/web/7.png"
+import cosmo from "../../public/assets/projects/web/8.png"
+import minare from "../../public/assets/projects/web/9.png"
 
 import Link from "next/link";
 import Image from "next/image";
@@ -13,22 +13,22 @@ import Image from "next/image";
 const Projects = () => {
   const portfolios = [
     {
-      id: 3,
+      id: 1,
       title: "Roots 2023 Official Website",
       imageSrc: roots ,
       url: "roots",
     },
     {
-      id: 1,
-      title: "Code Nexus-An Online IDE",
-      imageSrc: codenexus,
-      url: "code",
+      id: 2,
+      title: "Cosmopolitan 2024 Official Website",
+      imageSrc: cosmo ,
+      url: "cosmo",
     },
     {
-      id: 2,
-      title: "Netflix Lite",
-      imageSrc: netflix,
-      url: "netflix",
+      id: 3,
+      title: "Minare 2024 Official Website",
+      imageSrc: minare ,
+      url: "minare",
     },
     {
       id: 4,

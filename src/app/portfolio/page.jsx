@@ -9,6 +9,8 @@ import youtube from "../../../public/assets/projects/web/4.png"
 import weather from "../../../public/assets/projects/web/5.png"
 import blood from "../../../public/assets/projects/web/6.png"
 import roots from "../../../public/assets/projects/web/7.png"
+import cosmo from "../../../public/assets/projects/web/8.png"
+import minare from "../../../public/assets/projects/web/9.png"
 
 import mask from "../../../public/assets/projects/opencv/1.png"
 import object from "../../../public/assets/projects/opencv/2.png"
@@ -31,6 +33,18 @@ const page = () => {
             title: "Roots 2023 Official Website",
             imageSrc: roots,
             url: "roots",
+        },
+        {
+            id: 1,
+            title: "Cosmopolitan 2024 Official Website",
+            imageSrc: cosmo,
+            url: "cosmo",
+        },
+        {
+            id: 1,
+            title: "Minare 2024 Official Website",
+            imageSrc: minare,
+            url: "minare",
         },
         {
             id: 1,
